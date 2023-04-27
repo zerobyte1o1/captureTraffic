@@ -1,0 +1,2 @@
+# captureTraffic
+捕获流量，生成json文件用于导入metersphere平台，保证捕获操作时的所有接口，包含当时请求的参数数据，生成api和case
