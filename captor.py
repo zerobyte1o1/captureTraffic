@@ -174,7 +174,7 @@ class MyApp(App):
     def change_keyword(self, instance):
         Middle.keyword = self.text_input.text
         Middle.new_status = True
-        Middle.info_desk = '\n* Listening to localhost: 8083\n'
+        Middle.info_desk = '\n* Listening to localhost: 8082\n'
         Middle.info_desk += '* Cleared history and locking keywords: ' + Middle.keyword + '\n'
 
         Middle.info_desk += '-------------------------------------------------------------' \
